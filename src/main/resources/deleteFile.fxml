@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="136.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DeleteFileController">
+   <children>
+      <Label alignment="CENTER" layoutX="89.0" prefHeight="28.0" prefWidth="122.0" text="Удаление файла" />
+      <Label fx:id="infoLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="28.0" prefWidth="235.0" text="Вы действительно хотите удалить файл ?" wrapText="true" />
+      <Button fx:id="confirmDelete" layoutX="113.0" layoutY="97.0" mnemonicParsing="false" onAction="#confirmDelete" prefHeight="25.0" prefWidth="88.0" text="Да" />
+      <Label fx:id="infoLabel" layoutX="14.0" layoutY="97.0" prefHeight="25.0" prefWidth="164.0" text="Label" visible="false" />
+      <Button fx:id="cancelDelete" layoutX="212.0" layoutY="97.0" mnemonicParsing="false" onAction="#cancelDelete" prefHeight="25.0" prefWidth="88.0" text="Нет" />
+   </children>
+</AnchorPane>
